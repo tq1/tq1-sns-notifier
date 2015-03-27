@@ -20,7 +20,7 @@ class SNSNotifier
 
   @sendEmailNotification = (subject, message, callback) ->
 
-    callback('SNS Notifier not configured') if not config.isConfigured
+    return callback('Email Notifier not configured') if not config.isConfigured
     
     params =
       Subject: subject
