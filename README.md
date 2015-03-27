@@ -3,6 +3,7 @@ TQ1 notifier using SNS topics
 
 ## Usage
 1. Add the following to `package.json`
+
   ```
     "dependencies": {
       "tq1-sns-notifier": "git@github.com:tq1/tq1-sns-notifier.git#0.0.1"
