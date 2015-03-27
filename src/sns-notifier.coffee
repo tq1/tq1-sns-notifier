@@ -30,4 +30,4 @@ class SNSNotifier
     connect (service) ->
       publish service, params, callback
 
-module.exports = EmailNotifier
+module.exports = SNSNotifier

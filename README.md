@@ -11,7 +11,7 @@ TQ1 notifier using SNS topics
 3. Create a topic on [Amazon SNS](https://console.aws.amazon.com/sns/)
 4. Create an user on [Amazon AWS](https://console.aws.amazon.com/iam/) and grant credentials to publish (`sns:Publish`) to topic created before
 ```coffeescript
-notifier = require('tq1-email-notifier')
+notifier = require('tq1-sns-notifier')
 
 awsConfig =
   key:    config.email_notifier.access_key  # user's access key
