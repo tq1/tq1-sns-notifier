@@ -1,0 +1,21 @@
+{
+  "name": "tq1-sns-notifier",
+  "version": "0.0.1",
+  "description": "Service to send e-mail notifications through AWS SNS",
+  "author": "Taqtile",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tq1/tq1-sns-notifier"
+  },
+  "devDependencies": {
+    "coffee-script": "1.9.1",
+    "mocha": "1.21.5",
+    "chai": "1.10.0",
+    "sinon": "1.12.2",
+    "sinon-chai": "2.7.0"
+  },
+  "scripts": {
+    "compile": "coffee --bare --compile --output src src/*.coffee"
+    
+  }
+}
