@@ -3,13 +3,13 @@ TQ1 notifier using SNS topics
 
 ## Usage
 1. Add the following to `package.json`
-```
-  "dependencies": {
-    "tq1-sns-notifier": "git@github.com:tq1/tq1-sns-notifier.git#0.0.1"
-   }
-```
-3. Create a topic on [Amazon SNS](https://console.aws.amazon.com/sns/)
-4. Create an user on [Amazon AWS](https://console.aws.amazon.com/iam/) and grant credentials to publish (`sns:Publish`) to topic created before
+  ```
+    "dependencies": {
+      "tq1-sns-notifier": "git@github.com:tq1/tq1-sns-notifier.git#0.0.1"
+     }
+  ```
+2. Create a topic on [Amazon SNS](https://console.aws.amazon.com/sns/)
+3. Create an user on [Amazon AWS](https://console.aws.amazon.com/iam/) and grant credentials to publish (`sns:Publish`) to topic created before
 ```coffeescript
 notifier = require('tq1-sns-notifier')
 
